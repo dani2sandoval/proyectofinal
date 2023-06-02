@@ -1,0 +1,83 @@
+  @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,500;0,800;1,800&display=swap');
+
+  body {
+    font-family: 'Wix Madefor Text', sans-serif;
+    background-image: url('../Imágenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative; 
+  }
+
+  .contenedor {
+    text-align: center;
+    color: #29323c;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  .boton-inicio {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #29323c;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+
+  .boton-inicio:hover {
+    background-color: #1d252d;
+  }
+
+  .contenedor-integrantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .integrante {
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .integrante img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .integrante h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .integrante p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,500;0,800;1,800&display=swap');
+
+body {
+  font-family: 'Wix Madefor Text', sans-serif;
+  background-image: url('../Imágenes/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+}
+
+.titulo {
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.calculadora {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pantalla {
+  background-color: #f3f3f3;
+  color: #000;
+  padding: 10px;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.boton-numero {
+  background-color: #4267B2;
+  color: #fff;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.boton-operador {
+  background-color: #1877F2;
+  color: #fff;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.boton-igual {
+  background-color: #1DA1F2;
+  color: #fff;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.boton-borrar {
+  background-color: #E0245E;
+  color: #fff;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.boton-inicio {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #29323c;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.boton-inicio:hover {
+  background-color: #1d252d;
+}
+
+
+
+
+ 
+  
+
+  
